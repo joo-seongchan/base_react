@@ -1,13 +1,22 @@
-import { Fragment } from "react";
+import TagRule from "./components/1_JsxRule/TagRule";
+import ClassComponent from "./components/2_component/ClassComponent";
+// import FnComponents from "./components/2_component/FnComponent";
+import {
+  FnComponents_1,
+  FnComponents_2,
+} from "./components/2_component/FnComponent";
 
 const App = () => {
   return (
-    <>
-      <h1>gat</h1>
-      <h2>멀다멀어</h2>
-      <h3>갈길이</h3>
-      <img src="" />
-    </>
+    <div>
+      {/* <TagRule />; */}
+      {/* 1일차 */}
+
+      {/* <FnComponents_1 />
+      <FnComponents_2 /> */}
+
+      <ClassComponent />
+    </div>
   );
 };
 
