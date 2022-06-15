@@ -5,7 +5,7 @@ import {
   FnComponents_1,
   FnComponents_2,
 } from "./components/2_component/FnComponent";
-// import { Menus } from "./components/3_props/Menus";
+import { Menus } from "./components/3_props/Menus";
 import { Menus_ex } from "./components/3_props/Menus_ex";
 import { Subject } from "./components/3_props/Subject";
 import { subJectDb, MenusDb } from "./db";
