@@ -5,7 +5,10 @@ import {
   FnComponents_1,
   FnComponents_2,
 } from "./components/2_component/FnComponent";
-import { FoodMenu } from "./components/2_component/FoodMenu";
+// import { Menus } from "./components/3_props/Menus";
+import { Menus_ex } from "./components/3_props/Menus_ex";
+import { Subject } from "./components/3_props/Subject";
+import { subJectDb, MenusDb } from "./db";
 
 const App = () => {
   return (
@@ -16,18 +19,12 @@ const App = () => {
       {/* <FnComponents_1 />
       <FnComponents_2 /> */}
       {/* <ClassComponent /> */}
-
-      {/* *props
-      =><컴포넌트 프롭스명 = "값"/> */}
-      <h3>아침메뉴</h3>
-      <FoodMenu menuName="계란밥" drink="콜라" />
-
-      <h3>점심메뉴</h3>
-      <FoodMenu menuName="에슐리" drink="환타" />
-
-      <h3>저녁메뉴</h3>
-      <FoodMenu menuName="김치찌개" drink="식혜" />
       {/* 2일차 */}
+
+      {/* <Menus /> */}
+      <Menus_ex Menus={MenusDb} />
+      {/* <Subject sub={subJectDb} /> */}
+      {/* 3일차 */}
     </div>
   );
 };
