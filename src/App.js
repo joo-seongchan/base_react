@@ -9,6 +9,7 @@
 // import { Menus } from "./components/3_props/Menus";
 // import { Menus_ex } from "./components/3_props/Menus_ex";
 // import { Subject } from "./components/3_props/Subject";
+import { Content } from "./components/4_map/Content";
 import { FoodMenu2 } from "./components/4_map/FoodMenu2";
 import { MapEx } from "./components/4_map/MapEx";
 import { subJectDb, MenusDb, MapDb } from "./db";
@@ -30,7 +31,10 @@ const App = () => {
       {/* 3일차 */}
 
       {/* <FoodMenu2 menus={MenusDb} /> */}
-      <MapEx Db={MapDb} />
+      {/* <MapEx Db={MapDb} /> */}
+      <Content />
+      {/* 4일차
+       */}
     </div>
   );
 };
