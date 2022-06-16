@@ -13,10 +13,12 @@ import { Content } from "./components/4_map/Content";
 import { FoodMenu2 } from "./components/4_map/FoodMenu2";
 import { MapEx } from "./components/4_map/MapEx";
 import { subJectDb, MenusDb, MapDb } from "./db";
+import { GlobalStyled } from "./styles/GlobalStyled";
 
 const App = () => {
   return (
     <div>
+      <GlobalStyled />
       {/* <TagRule />; */}
       {/* 1일차 */}
 
