@@ -52,7 +52,7 @@ export const ConEx = ({ conData }) => {
             <a href={con.url}>
               <Bg
                 style={{
-                  background: `url(${con.imgUrl}) no-reapeat center / cover`,
+                  background: `url(${con.imgUrl}) no-repeat center / cover`,
                 }}
               />
               <TitleWrap>

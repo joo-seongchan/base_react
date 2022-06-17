@@ -13,6 +13,7 @@ import { ConEx } from "./components/4_map/ConEx";
 import { Content } from "./components/4_map/Content";
 import { FoodMenu2 } from "./components/4_map/FoodMenu2";
 import { MapEx } from "./components/4_map/MapEx";
+import { Icons } from "./components/5_MusicApp/Icons";
 import { subJectDb, MenusDb, MapDb, conDb } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
@@ -36,9 +37,10 @@ const App = () => {
       {/* <FoodMenu2 menus={MenusDb} /> */}
       {/* <MapEx Db={MapDb} /> */}
       {/* <Content /> */}
-      <ConEx conData={conDb} />
+      {/* <ConEx conData={conDb} /> */}
       {/* 4일차
        */}
+      <Icons />
     </div>
   );
 };
