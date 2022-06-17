@@ -28,6 +28,12 @@ const Menuleft = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  &:hover {
+    background-color: black;
+    i {
+      color: red;
+    }
+  }
   i {
     font-size: 14px;
     font-weight: 900;
