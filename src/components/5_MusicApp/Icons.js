@@ -1,4 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHome,
+  faArrowUp,
+  faHeart,
+  faAddressCard,
+} from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 
 const Bg = styled.div`
