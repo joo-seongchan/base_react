@@ -72,3 +72,29 @@ export const MapDb = [
     img: "https://ssl.pstatic.net/static/newsstand/2022/0616/pressian/093132/003.jpg",
   },
 ];
+
+export const conDb = [
+  {
+    id: 0,
+    imgUrl:
+      "https://velog.velcdn.com/images/dldnjswns31/post/acf9ed03-21a9-4a8c-aabd-664e8a344424/image.webp",
+    title: "HTML",
+    desc: "하이퍼 텍스트 마크업 언어는 웹 페이지를 위한 지배적인 마크업 언어다. 또한, HTML은 제목, 단락, 목록 등과 같은 본문을 위한 구조적 의미를 나타내는 것뿐만 아니라 링크, 인용과 그 밖의 항목으로 구조적 문서를 만들 수 있는 방법을 제공한다",
+    url: "https://www.google.com/search?q=html&rlz=1C1CHWL_koKR988KR988&oq=HTML&aqs=chrome.0.69i59l2j0i67i131i433j0i20i131i263i433i512j0i131i433i512l3j0i512j0i20i263i512j0i433i512.2231j1j15&sourceid=chrome&ie=UTF-8",
+  },
+  {
+    id: 1,
+    imgUrl:
+      "https://play-lh.googleusercontent.com/RTAZb9E639F4JBcuBRTPEk9_92I-kaKgBMw4LFxTGhdCQeqWukXh74rTngbQpBVGxqo",
+    title: "CSS",
+    desc: "종속형 시트 또는 캐스케이딩 스타일 시트는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어로, HTML과 XHTML에 주로 쓰이며, XML에서도 사용할 수 있다. W3C의 표준이며, 레이아웃과 스타일을 정의할 때의 자유도가 높다. 기본 파일명은 style.css이다.",
+    url: "https://www.google.com/search?q=CSS&rlz=1C1CHWL_koKR988KR988&sxsrf=ALiCzsY-zAYwD4_J2cSU1RSR6KX68N49MA%3A1655424544066&ei=IMarYtTRA42DmAWjx6HoDg&ved=0ahUKEwjU4Zr_mLP4AhWNAaYKHaNjCO0Q4dUDCA4&uact=5&oq=CSS&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBAgjECcyCwgAEIAEELEDEIMBMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyBQgAEIAEMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyCwgAEIAEELEDEIMBOgcIIxDqAhAnOg0ILhDHARCjAhDqAhAnOgQILhADOgQIABADOhEILhCABBCxAxCDARDHARCjAjoFCC4QgAQ6BwguENQCEAM6CgguEMcBEK8BEAM6EQguEIAEELEDEIMBEMcBENEDOggIABCABBCxAzoQCAAQgAQQhwIQsQMQgwEQFEoECEEYAEoECEYYAFAAWLANYIcPaAJwAXgAgAF1iAHKA5IBAzAuNJgBAKABAbABCsABAQ&sclient=gws-wiz",
+  },
+  {
+    id: 2,
+    imgUrl: "https://t1.daumcdn.net/cfile/tistory/21221F4258E793521D",
+    title: "JAVASCRIPT",
+    desc: "자바스크립트는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용하며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다.",
+    url: "https://www.google.com/search?q=javascript&rlz=1C1CHWL_koKR988KR988&sxsrf=ALiCzsZTP_Dwr2e9pD7TTwuTnCJtBQkoGA%3A1655424564041&ei=NMarYpOXApSDr7wPjsqe8Ac&oq=JAVAS&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIQCAAQgAQQhwIQsQMQgwEQFDILCAAQgAQQsQMQgwEyCwgAEIAEELEDEIMBMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyCwgAEIAEELEDEIMBMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyCwgAEIAEELEDEIMBOgoILhDHARDRAxAnOggIABCABBCxAzoFCC4QgAQ6BQgAEIAEOgQIABADSgQIQRgASgQIRhgAUABYgwlg8xNoAHABeACAAX2IAc8EkgEDMC41mAEAoAEBwAEB&sclient=gws-wiz",
+  },
+];

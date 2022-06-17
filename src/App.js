@@ -9,10 +9,11 @@
 // import { Menus } from "./components/3_props/Menus";
 // import { Menus_ex } from "./components/3_props/Menus_ex";
 // import { Subject } from "./components/3_props/Subject";
+import { ConEx } from "./components/4_map/ConEx";
 import { Content } from "./components/4_map/Content";
 import { FoodMenu2 } from "./components/4_map/FoodMenu2";
 import { MapEx } from "./components/4_map/MapEx";
-import { subJectDb, MenusDb, MapDb } from "./db";
+import { subJectDb, MenusDb, MapDb, conDb } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
 const App = () => {
@@ -34,7 +35,8 @@ const App = () => {
 
       {/* <FoodMenu2 menus={MenusDb} /> */}
       {/* <MapEx Db={MapDb} /> */}
-      <Content />
+      {/* <Content /> */}
+      <ConEx conData={conDb} />
       {/* 4일차
        */}
     </div>
