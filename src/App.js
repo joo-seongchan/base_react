@@ -16,6 +16,7 @@ import { MapEx } from "./components/4_map/MapEx";
 import { Icons } from "./components/5_MusicApp/Icons";
 import { MusicApp } from "./components/5_MusicApp/MusicApp";
 import { ClassEvent } from "./components/6_Event/ClassEvent";
+import { EventEx } from "./components/6_Event/EventEx";
 import { FnEvent } from "./components/6_Event/FnEvent";
 import { subJectDb, MenusDb, MapDb, conDb } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
@@ -47,7 +48,8 @@ const App = () => {
       {/* <MusicApp /> */}
       {/* 5일차 */}
       {/* <ClassEvent /> */}
-      <FnEvent />
+      {/* <FnEvent /> */}
+      <EventEx />
     </div>
   );
 };
