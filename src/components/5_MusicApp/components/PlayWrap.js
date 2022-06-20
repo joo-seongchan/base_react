@@ -12,7 +12,7 @@ const GageWrap = styled.div`
 const Gage = styled.div`
   width: 10%;
   height: 100%;
-  background-color: aquamarine;
+  background-color: orange;
 `;
 const TimeWrap = styled.div`
   display: flex;
