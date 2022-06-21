@@ -1,14 +1,14 @@
-// import TagRule from "./components/1_JsxRule/TagRule";
-// import ClassComponent from "./components/2_component/ClassComponent";
-// // import FnComponents from "./components/2_component/FnComponent";
-// import {
-//   FnComponents_1,
-//   FnComponents_2,
-// } from "./components/2_component/FnComponent";
-// import { FoodMenu } from "./components/2_component/FoodMenu";
-// import { Menus } from "./components/3_props/Menus";
-// import { Menus_ex } from "./components/3_props/Menus_ex";
-// import { Subject } from "./components/3_props/Subject";
+import TagRule from "./components/1_JsxRule/TagRule";
+import ClassComponent from "./components/2_component/ClassComponent";
+import FnComponents from "./components/2_component/FnComponent";
+import {
+  FnComponents_1,
+  FnComponents_2,
+} from "./components/2_component/FnComponent";
+import { FoodMenu } from "./components/2_component/FoodMenu";
+import { Menus } from "./components/3_props/Menus";
+import { Menus_ex } from "./components/3_props/Menus_ex";
+import { Subject } from "./components/3_props/Subject";
 import { ConEx } from "./components/4_map/ConEx";
 import { Content } from "./components/4_map/Content";
 import { FoodMenu2 } from "./components/4_map/FoodMenu2";
@@ -19,6 +19,8 @@ import { Animation } from "./components/6_Event/Animation";
 import { ClassEvent } from "./components/6_Event/ClassEvent";
 import { EventEx } from "./components/6_Event/EventEx";
 import { FnEvent } from "./components/6_Event/FnEvent";
+import { BaseRoute } from "./components/7_router/BaseRoute";
+import { ExRoutes } from "./components/7_router/routerEx/ExRoutes";
 import { subJectDb, MenusDb, MapDb, conDb } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
@@ -51,7 +53,11 @@ const App = () => {
       {/* <ClassEvent /> */}
       {/* <FnEvent /> */}
       {/* <EventEx /> */}
-      <Animation />
+      {/* <Animation /> */}
+      {/* 6일차 */}
+
+      {/* <BaseRoute /> */}
+      <ExRoutes />
     </div>
   );
 };
