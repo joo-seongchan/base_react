@@ -25,21 +25,13 @@ const Desc = styled.div`
   line-height: 1.5rem;
 `;
 
-export const Sub1 = () => {
+export const Sub = ({ cons }) => {
   return (
     <Section>
       <Bg />
       <TextWrap>
-        <Title>서브페이지1</Title>
-        <Desc>
-          {" "}
-          create mode 100644 src/components/8_BaseLayout/LayoutRouter.js create
-          mode 100644 src/components/8_BaseLayout/components/Header.js create
-          mode 100644 src/components/8_BaseLayout/pages/Home.js create mode
-          100644 src/components/8_BaseLayout/pages/NotFound.js create mode
-          100644 src/components/8_BaseLayout/pages/Sub1.js create mode 100644
-          src/components/8_BaseLayout/pages/Sub2.js{" "}
-        </Desc>
+        <Title>{cons.title}</Title>
+        <Desc>{cons.desc}</Desc>
       </TextWrap>
     </Section>
   );
