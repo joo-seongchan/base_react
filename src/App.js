@@ -21,6 +21,7 @@ import { EventEx } from "./components/6_Event/EventEx";
 import { FnEvent } from "./components/6_Event/FnEvent";
 import { BaseRoute } from "./components/7_router/BaseRoute";
 import { ExRoutes } from "./components/7_router/routerEx/ExRoutes";
+import { LayoutRouter } from "./components/8_BaseLayout/LayoutRouter";
 import { subJectDb, MenusDb, MapDb, conDb } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
@@ -57,7 +58,8 @@ const App = () => {
       {/* 6일차 */}
 
       {/* <BaseRoute /> */}
-      <ExRoutes />
+      {/* <ExRoutes /> */}
+      <LayoutRouter />
     </div>
   );
 };
